@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284572571127",
+    "project_id": "campusfix-eef41",
+    "storage_bucket": "campusfix-eef41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284572571127:android:fe5a0f79be3282005a0af2",
+        "android_client_info": {
+          "package_name": "com.capmusfix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJhyasRRz4JjuyeJQ9xXDRhXdRALs8Whw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

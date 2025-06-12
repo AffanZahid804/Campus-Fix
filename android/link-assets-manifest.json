@@ -1,0 +1,169 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/Asset/Fonts/Helvetica/Helvetica Neue LTW0697BlkCnObl.ttf",
+      "sha1": "3eb14a7eb60ece535a875f7a8d2bfc4b2a5d546a"
+    },
+    {
+      "path": "src/Asset/Fonts/Helvetica/Helvetica Neue Medium Extended.ttf",
+      "sha1": "b5b28fe91c314a44ccd3795f2cc42a0a17e2d720"
+    },
+    {
+      "path": "src/Asset/Fonts/Helvetica/Helvetica Neue W01 66 Medium It.ttf",
+      "sha1": "69941d92a4a7d47540f9d35f070580a66b25e1e6"
+    },
+    {
+      "path": "src/Asset/Fonts/Helvetica/Helvetica Neue W01 77 Bd Cn Obl.ttf",
+      "sha1": "316c3faa7c2d3f54d88de9ed74a6f0792adbafa9"
+    },
+    {
+      "path": "src/Asset/Fonts/Helvetica/Helvetica Neue W01 87 Hv Cn Obl.ttf",
+      "sha1": "9f20cad2140426a3ad278321c4b106281dd69155"
+    },
+    {
+      "path": "src/Asset/Fonts/Helvetica/Helvetica NeueLTW0693BlkExtObl.ttf",
+      "sha1": "f82fdebf82c123f10290cc4e767f1b0c6e54b93d"
+    },
+    {
+      "path": "src/Asset/Fonts/Nova_Square/NovaSquare-Regular.ttf",
+      "sha1": "08c92a5ce9ab8520b50630012a5c320288ffff42"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/Helvetica Neue UltraLight.ttf",
+      "sha1": "790a1973764c34d2d74568105a50fd1c820d9d89"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Black.otf",
+      "sha1": "b5c761bdd577f6d4c63fc7374c68b448515b4a13"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Bold.otf",
+      "sha1": "62e4ad816becdadf7a49beedab3e73b6660f96f0"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Light.otf",
+      "sha1": "714523013ef699ecdba79df8b17f94e40d6ad86c"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Medium.otf",
+      "sha1": "3d78a6b47330582a3bd778c8d710858203fd8024"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Regular.otf",
+      "sha1": "1b86362797a53ae828ecb04f73d1cf64856f5536"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Semibold.otf",
+      "sha1": "6ac0cdc1c8e89e62373713168dd39feaf8e46284"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Thin.otf",
+      "sha1": "4e5446ab4c5226fd0fcb644cf333b4d8d251cef3"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSDisplay-Ultralight.otf",
+      "sha1": "c901f0a88325c576d0791dc00e10a74cce3d16d7"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-Bold.otf",
+      "sha1": "3bffa0fb289d01663ffdffdf7d2ce8d6a8cbe2b6"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-BoldG1.otf",
+      "sha1": "a1e52e132c8aafe34d371f3095b1524822ef0d9a"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-BoldG2.otf",
+      "sha1": "f7d3b64bba47897d489656a02376eba24b8da848"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-BoldG3.otf",
+      "sha1": "3788abb45c3ce7d303ea923d100a7abf36abc083"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-BoldItalic.otf",
+      "sha1": "4db84e057c50fa19d142d7354947eb8b08f2d897"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-BoldItalicG1.otf",
+      "sha1": "d14054db9a84fd65574a3d844214c09daaa65425"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-BoldItalicG2.otf",
+      "sha1": "e5b867d74b979676bf082d413ad8fbfa66f093f8"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-BoldItalicG3.otf",
+      "sha1": "e5aa849d74a8b6f6c271a69583dd1cb26c488570"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-Heavy.otf",
+      "sha1": "c5e47171e8fbf0067cdfccf8b2aa13676a0471b2"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-HeavyItalic.otf",
+      "sha1": "ffc6f9f53431d637a65a1c718c9a0d53b5299aac"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-Light.otf",
+      "sha1": "e5e0d4c3210badc88d94c31d1a9567b31bccaffa"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-LightItalic.otf",
+      "sha1": "67fdceb9db605482f68d9ba2c14e01b4a0e4cf80"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-Medium.otf",
+      "sha1": "246b1faba68859209d399575799efceb8caa25d7"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-MediumItalic.otf",
+      "sha1": "83dad00191227a7428f0748881db5e3439a62959"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-Regular.otf",
+      "sha1": "5460f118a228113f6c9559df5754af08e3654ed3"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-RegularG1.otf",
+      "sha1": "80fcb8a37024474a2508cfe9bcbd877f0406c27b"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-RegularG2.otf",
+      "sha1": "55827c41a1c9250196f16b07116a8e4c4303ecf2"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-RegularG3.otf",
+      "sha1": "b46ffbb92803470705da4852efb63623512e58e5"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-RegularItalic.otf",
+      "sha1": "24db0cb918cada31b7dead804865dabacca38601"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-RegularItalicG1.otf",
+      "sha1": "eb7435b17fc2b5895a54a6153bc05c628ccfb87b"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-RegularItalicG2.otf",
+      "sha1": "8d3a428ab3eb6251f28c10930285808942e2c96b"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-RegularItalicG3.otf",
+      "sha1": "4e44e8d39bfe26c04a96d886566d52448771af25"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-Semibold.otf",
+      "sha1": "857ee64dc606bc8a18beefa06e8a544e7d5536c9"
+    },
+    {
+      "path": "src/Asset/Fonts/San-Francisco/SFNSText-SemiboldItalic.otf",
+      "sha1": "725eb25f17409abe242a1b19984ccb9ecfb6d1e0"
+    },
+    {
+      "path": "src/Asset/Fonts/SFNSDisplay-Heavy.otf",
+      "sha1": "75adc29a696a23dd1bf907c206089c92bf98464a"
+    }
+  ]
+}

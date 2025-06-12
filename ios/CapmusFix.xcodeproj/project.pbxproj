@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CapmusFixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CapmusFixTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-CapmusFix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CapmusFix.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-CapmusFix-CapmusFixTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CapmusFix-CapmusFixTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		64210712626A4B1A987E1A9E /* SFNSDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5EDE8891AB34F2BBAD201A7 /* SFNSDisplay-Black.otf */; };
+		18FD04903A52419B86F9833E /* SFNSDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0649999479BB46E5BD8DF6DD /* SFNSDisplay-Bold.otf */; };
+		3585EF88D7AE4A6FBAE6BE65 /* SFNSDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE29AB12BD27491F9008AD58 /* SFNSDisplay-Light.otf */; };
+		25E6F15E6AC94555B975357C /* SFNSDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE32103747954338A4986736 /* SFNSDisplay-Medium.otf */; };
+		30E9F4C930BA4322891088EF /* SFNSDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1639FA125DC1497C85E10DDD /* SFNSDisplay-Regular.otf */; };
+		1770EB1E98CA4080AB12C8D0 /* SFNSDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D7BC8F1FF914E2894A09F72 /* SFNSDisplay-Semibold.otf */; };
+		980B1136D86840E2BC88655E /* SFNSDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94D57404933E496394BC8451 /* SFNSDisplay-Thin.otf */; };
+		5B6B241A77CF40169B8B82EE /* SFNSDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8DA604B895044B7A8730965C /* SFNSDisplay-Ultralight.otf */; };
+		65DE5C1FE5F84AFA9E08D0A8 /* SFNSText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 69488305B2DA45ADA235E146 /* SFNSText-Bold.otf */; };
+		C33317A25FF240B3A0CC9EC2 /* SFNSText-BoldG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4745F22273834FF3B1AD5B21 /* SFNSText-BoldG1.otf */; };
+		4052FBB3686143D7AA6D7225 /* SFNSText-BoldG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2EC5CD5D5349E8A42471B8 /* SFNSText-BoldG2.otf */; };
+		BECC74D11D25421D844AA31E /* SFNSText-BoldG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = B192BFC025D6461398CB6E73 /* SFNSText-BoldG3.otf */; };
+		1C765C4E29B942E0AFAB2CFD /* SFNSText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D890528ED4B2494BB5041B7B /* SFNSText-BoldItalic.otf */; };
+		FECCF6CCECB84982812E9F90 /* SFNSText-BoldItalicG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = A087EB99967942A3BE0665B3 /* SFNSText-BoldItalicG1.otf */; };
+		4664A654634546A7AC7A69D1 /* SFNSText-BoldItalicG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC3BBCBB009A4AC7A78CCF6B /* SFNSText-BoldItalicG2.otf */; };
+		42968C596B0949C08855BC91 /* SFNSText-BoldItalicG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8B056CCEE24B11AFB6858E /* SFNSText-BoldItalicG3.otf */; };
+		267129670F674869907CDBFB /* SFNSText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49E7BC836A4A4E4D9F23F501 /* SFNSText-Heavy.otf */; };
+		1B91A23759F944AC9A77C478 /* SFNSText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C018ACD2E9544988B7DD629F /* SFNSText-HeavyItalic.otf */; };
+		CB0728B647184D618D124BCF /* SFNSText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D52281B939049B79DF3AE4A /* SFNSText-Light.otf */; };
+		FB6BC170AED64B5AAE9E65FB /* SFNSText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 893102CC53AB4F61828FFBFA /* SFNSText-LightItalic.otf */; };
+		F02C4F53CC7B49E8A4285F23 /* SFNSText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CDAF9B79F1984738B993D475 /* SFNSText-Medium.otf */; };
+		7780369E35EA49CFBA6841E8 /* SFNSText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7154AD804E95484A96A1AC27 /* SFNSText-MediumItalic.otf */; };
+		B82D298A5D9548EE97DD1CC4 /* SFNSText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 98AE16C9F3364753992639EA /* SFNSText-Regular.otf */; };
+		DB2BF0A495F949E3A374D381 /* SFNSText-RegularG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6374EB5F9AC9432B9D8A2392 /* SFNSText-RegularG1.otf */; };
+		C16D68768B24492495D2C09B /* SFNSText-RegularG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6315CE8896D04AE2ACFDD275 /* SFNSText-RegularG2.otf */; };
+		4F4AB6DC828F47D3AE37F593 /* SFNSText-RegularG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F40A2C52C3A49619AB0B459 /* SFNSText-RegularG3.otf */; };
+		8178ACEF98784D1A86C2A6AE /* SFNSText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C26BA4D5EB6940B9B745E24E /* SFNSText-RegularItalic.otf */; };
+		288C4E4E1E3C4C6B852722D7 /* SFNSText-RegularItalicG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = E0A5163E49294CC1B9864C89 /* SFNSText-RegularItalicG1.otf */; };
+		C42FA7656CED4E9DA113056B /* SFNSText-RegularItalicG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = E102EAF6EDE64008A521BF1C /* SFNSText-RegularItalicG2.otf */; };
+		7D5353423BAC4A6E9B9BC676 /* SFNSText-RegularItalicG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FC1C5CC12EC4CAB90C7BF55 /* SFNSText-RegularItalicG3.otf */; };
+		CF21EED419D34CB8A4751771 /* SFNSText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EDDD64CD9E1145F08EC4ADAB /* SFNSText-Semibold.otf */; };
+		92336FF690194E5FA8D0F0A2 /* SFNSText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB6B9D5E1A974D9EBC20CA78 /* SFNSText-SemiboldItalic.otf */; };
+		A8549504D30345A780C1E00E /* SFNSDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8C4C10E41D24B239EF43F8F /* SFNSDisplay-Heavy.otf */; };
+		15AB6D2B96D04E2B80A2ADCC /* Helvetica Neue LTW0697BlkCnObl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24EAB0D0CB38443391630A74 /* Helvetica Neue LTW0697BlkCnObl.ttf */; };
+		BEE97E5E8D7A47BA8845D7D6 /* Helvetica Neue Medium Extended.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB7F4D24DC4284A3057543 /* Helvetica Neue Medium Extended.ttf */; };
+		F3F6977F7B434F17BA71C55A /* Helvetica Neue W01 66 Medium It.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AA3C3D15B9141E9A98B759E /* Helvetica Neue W01 66 Medium It.ttf */; };
+		B263ED38E8434F2D912E9092 /* Helvetica Neue W01 77 Bd Cn Obl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF1F3AA89C1A461E9B0EACBC /* Helvetica Neue W01 77 Bd Cn Obl.ttf */; };
+		3A21EBEE771D48E29A1B6C81 /* Helvetica Neue W01 87 Hv Cn Obl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C847F9AE52414CAEAF0BD5BF /* Helvetica Neue W01 87 Hv Cn Obl.ttf */; };
+		7178FC95F7CB456BA10A988B /* Helvetica NeueLTW0693BlkExtObl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 786EE583CD3343DABA63BD77 /* Helvetica NeueLTW0693BlkExtObl.ttf */; };
+		D720FD842FF347008F89DEAE /* NovaSquare-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4790284B54D74A46A847041B /* NovaSquare-Regular.ttf */; };
+		0A49781EA2C74CF8908AA2FB /* Helvetica Neue UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B00761030CA4B3BA0B9A2DD /* Helvetica Neue UltraLight.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = CapmusFix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* CapmusFixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapmusFixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CapmusFixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapmusFixTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CapmusFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapmusFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CapmusFix/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CapmusFix/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CapmusFix/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CapmusFix/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CapmusFix/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CapmusFix-CapmusFixTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CapmusFix-CapmusFixTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-CapmusFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapmusFix.debug.xcconfig"; path = "Target Support Files/Pods-CapmusFix/Pods-CapmusFix.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-CapmusFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapmusFix.release.xcconfig"; path = "Target Support Files/Pods-CapmusFix/Pods-CapmusFix.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-CapmusFix-CapmusFixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapmusFix-CapmusFixTests.debug.xcconfig"; path = "Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-CapmusFix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CapmusFix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CapmusFix/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-CapmusFix-CapmusFixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapmusFix-CapmusFixTests.release.xcconfig"; path = "Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D5EDE8891AB34F2BBAD201A7 /* SFNSDisplay-Black.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Black.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0649999479BB46E5BD8DF6DD /* SFNSDisplay-Bold.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Bold.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE29AB12BD27491F9008AD58 /* SFNSDisplay-Light.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Light.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CE32103747954338A4986736 /* SFNSDisplay-Medium.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Medium.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1639FA125DC1497C85E10DDD /* SFNSDisplay-Regular.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Regular.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D7BC8F1FF914E2894A09F72 /* SFNSDisplay-Semibold.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Semibold.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		94D57404933E496394BC8451 /* SFNSDisplay-Thin.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Thin.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DA604B895044B7A8730965C /* SFNSDisplay-Ultralight.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Ultralight.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSDisplay-Ultralight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69488305B2DA45ADA235E146 /* SFNSText-Bold.otf */ = {isa = PBXFileReference; name = "SFNSText-Bold.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4745F22273834FF3B1AD5B21 /* SFNSText-BoldG1.otf */ = {isa = PBXFileReference; name = "SFNSText-BoldG1.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-BoldG1.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C2EC5CD5D5349E8A42471B8 /* SFNSText-BoldG2.otf */ = {isa = PBXFileReference; name = "SFNSText-BoldG2.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-BoldG2.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B192BFC025D6461398CB6E73 /* SFNSText-BoldG3.otf */ = {isa = PBXFileReference; name = "SFNSText-BoldG3.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-BoldG3.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D890528ED4B2494BB5041B7B /* SFNSText-BoldItalic.otf */ = {isa = PBXFileReference; name = "SFNSText-BoldItalic.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-BoldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A087EB99967942A3BE0665B3 /* SFNSText-BoldItalicG1.otf */ = {isa = PBXFileReference; name = "SFNSText-BoldItalicG1.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-BoldItalicG1.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC3BBCBB009A4AC7A78CCF6B /* SFNSText-BoldItalicG2.otf */ = {isa = PBXFileReference; name = "SFNSText-BoldItalicG2.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-BoldItalicG2.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C8B056CCEE24B11AFB6858E /* SFNSText-BoldItalicG3.otf */ = {isa = PBXFileReference; name = "SFNSText-BoldItalicG3.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-BoldItalicG3.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49E7BC836A4A4E4D9F23F501 /* SFNSText-Heavy.otf */ = {isa = PBXFileReference; name = "SFNSText-Heavy.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C018ACD2E9544988B7DD629F /* SFNSText-HeavyItalic.otf */ = {isa = PBXFileReference; name = "SFNSText-HeavyItalic.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-HeavyItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D52281B939049B79DF3AE4A /* SFNSText-Light.otf */ = {isa = PBXFileReference; name = "SFNSText-Light.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		893102CC53AB4F61828FFBFA /* SFNSText-LightItalic.otf */ = {isa = PBXFileReference; name = "SFNSText-LightItalic.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-LightItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CDAF9B79F1984738B993D475 /* SFNSText-Medium.otf */ = {isa = PBXFileReference; name = "SFNSText-Medium.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7154AD804E95484A96A1AC27 /* SFNSText-MediumItalic.otf */ = {isa = PBXFileReference; name = "SFNSText-MediumItalic.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-MediumItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		98AE16C9F3364753992639EA /* SFNSText-Regular.otf */ = {isa = PBXFileReference; name = "SFNSText-Regular.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6374EB5F9AC9432B9D8A2392 /* SFNSText-RegularG1.otf */ = {isa = PBXFileReference; name = "SFNSText-RegularG1.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-RegularG1.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6315CE8896D04AE2ACFDD275 /* SFNSText-RegularG2.otf */ = {isa = PBXFileReference; name = "SFNSText-RegularG2.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-RegularG2.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F40A2C52C3A49619AB0B459 /* SFNSText-RegularG3.otf */ = {isa = PBXFileReference; name = "SFNSText-RegularG3.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-RegularG3.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C26BA4D5EB6940B9B745E24E /* SFNSText-RegularItalic.otf */ = {isa = PBXFileReference; name = "SFNSText-RegularItalic.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-RegularItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0A5163E49294CC1B9864C89 /* SFNSText-RegularItalicG1.otf */ = {isa = PBXFileReference; name = "SFNSText-RegularItalicG1.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-RegularItalicG1.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E102EAF6EDE64008A521BF1C /* SFNSText-RegularItalicG2.otf */ = {isa = PBXFileReference; name = "SFNSText-RegularItalicG2.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-RegularItalicG2.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0FC1C5CC12EC4CAB90C7BF55 /* SFNSText-RegularItalicG3.otf */ = {isa = PBXFileReference; name = "SFNSText-RegularItalicG3.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-RegularItalicG3.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDDD64CD9E1145F08EC4ADAB /* SFNSText-Semibold.otf */ = {isa = PBXFileReference; name = "SFNSText-Semibold.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB6B9D5E1A974D9EBC20CA78 /* SFNSText-SemiboldItalic.otf */ = {isa = PBXFileReference; name = "SFNSText-SemiboldItalic.otf"; path = "../src/Asset/Fonts/San-Francisco/SFNSText-SemiboldItalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C8C4C10E41D24B239EF43F8F /* SFNSDisplay-Heavy.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Heavy.otf"; path = "../src/Asset/Fonts/SFNSDisplay-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		24EAB0D0CB38443391630A74 /* Helvetica Neue LTW0697BlkCnObl.ttf */ = {isa = PBXFileReference; name = "Helvetica Neue LTW0697BlkCnObl.ttf"; path = "../src/Asset/Fonts/Helvetica/Helvetica Neue LTW0697BlkCnObl.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CBB7F4D24DC4284A3057543 /* Helvetica Neue Medium Extended.ttf */ = {isa = PBXFileReference; name = "Helvetica Neue Medium Extended.ttf"; path = "../src/Asset/Fonts/Helvetica/Helvetica Neue Medium Extended.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0AA3C3D15B9141E9A98B759E /* Helvetica Neue W01 66 Medium It.ttf */ = {isa = PBXFileReference; name = "Helvetica Neue W01 66 Medium It.ttf"; path = "../src/Asset/Fonts/Helvetica/Helvetica Neue W01 66 Medium It.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF1F3AA89C1A461E9B0EACBC /* Helvetica Neue W01 77 Bd Cn Obl.ttf */ = {isa = PBXFileReference; name = "Helvetica Neue W01 77 Bd Cn Obl.ttf"; path = "../src/Asset/Fonts/Helvetica/Helvetica Neue W01 77 Bd Cn Obl.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C847F9AE52414CAEAF0BD5BF /* Helvetica Neue W01 87 Hv Cn Obl.ttf */ = {isa = PBXFileReference; name = "Helvetica Neue W01 87 Hv Cn Obl.ttf"; path = "../src/Asset/Fonts/Helvetica/Helvetica Neue W01 87 Hv Cn Obl.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		786EE583CD3343DABA63BD77 /* Helvetica NeueLTW0693BlkExtObl.ttf */ = {isa = PBXFileReference; name = "Helvetica NeueLTW0693BlkExtObl.ttf"; path = "../src/Asset/Fonts/Helvetica/Helvetica NeueLTW0693BlkExtObl.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4790284B54D74A46A847041B /* NovaSquare-Regular.ttf */ = {isa = PBXFileReference; name = "NovaSquare-Regular.ttf"; path = "../src/Asset/Fonts/Nova_Square/NovaSquare-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B00761030CA4B3BA0B9A2DD /* Helvetica Neue UltraLight.ttf */ = {isa = PBXFileReference; name = "Helvetica Neue UltraLight.ttf"; path = "../src/Asset/Fonts/San-Francisco/Helvetica Neue UltraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-CapmusFix-CapmusFixTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-CapmusFix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CapmusFixTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CapmusFixTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CapmusFixTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CapmusFix */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = CapmusFix;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-CapmusFix.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-CapmusFix-CapmusFixTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* CapmusFix */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CapmusFixTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				781AA77F0B274E7B963F57A5 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* CapmusFix.app */,
+				00E356EE1AD99517003FC87E /* CapmusFixTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-CapmusFix.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-CapmusFix.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-CapmusFix-CapmusFixTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-CapmusFix-CapmusFixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		781AA77F0B274E7B963F57A5 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D5EDE8891AB34F2BBAD201A7 /* SFNSDisplay-Black.otf */,
+				0649999479BB46E5BD8DF6DD /* SFNSDisplay-Bold.otf */,
+				FE29AB12BD27491F9008AD58 /* SFNSDisplay-Light.otf */,
+				CE32103747954338A4986736 /* SFNSDisplay-Medium.otf */,
+				1639FA125DC1497C85E10DDD /* SFNSDisplay-Regular.otf */,
+				9D7BC8F1FF914E2894A09F72 /* SFNSDisplay-Semibold.otf */,
+				94D57404933E496394BC8451 /* SFNSDisplay-Thin.otf */,
+				8DA604B895044B7A8730965C /* SFNSDisplay-Ultralight.otf */,
+				69488305B2DA45ADA235E146 /* SFNSText-Bold.otf */,
+				4745F22273834FF3B1AD5B21 /* SFNSText-BoldG1.otf */,
+				1C2EC5CD5D5349E8A42471B8 /* SFNSText-BoldG2.otf */,
+				B192BFC025D6461398CB6E73 /* SFNSText-BoldG3.otf */,
+				D890528ED4B2494BB5041B7B /* SFNSText-BoldItalic.otf */,
+				A087EB99967942A3BE0665B3 /* SFNSText-BoldItalicG1.otf */,
+				BC3BBCBB009A4AC7A78CCF6B /* SFNSText-BoldItalicG2.otf */,
+				0C8B056CCEE24B11AFB6858E /* SFNSText-BoldItalicG3.otf */,
+				49E7BC836A4A4E4D9F23F501 /* SFNSText-Heavy.otf */,
+				C018ACD2E9544988B7DD629F /* SFNSText-HeavyItalic.otf */,
+				9D52281B939049B79DF3AE4A /* SFNSText-Light.otf */,
+				893102CC53AB4F61828FFBFA /* SFNSText-LightItalic.otf */,
+				CDAF9B79F1984738B993D475 /* SFNSText-Medium.otf */,
+				7154AD804E95484A96A1AC27 /* SFNSText-MediumItalic.otf */,
+				98AE16C9F3364753992639EA /* SFNSText-Regular.otf */,
+				6374EB5F9AC9432B9D8A2392 /* SFNSText-RegularG1.otf */,
+				6315CE8896D04AE2ACFDD275 /* SFNSText-RegularG2.otf */,
+				4F40A2C52C3A49619AB0B459 /* SFNSText-RegularG3.otf */,
+				C26BA4D5EB6940B9B745E24E /* SFNSText-RegularItalic.otf */,
+				E0A5163E49294CC1B9864C89 /* SFNSText-RegularItalicG1.otf */,
+				E102EAF6EDE64008A521BF1C /* SFNSText-RegularItalicG2.otf */,
+				0FC1C5CC12EC4CAB90C7BF55 /* SFNSText-RegularItalicG3.otf */,
+				EDDD64CD9E1145F08EC4ADAB /* SFNSText-Semibold.otf */,
+				AB6B9D5E1A974D9EBC20CA78 /* SFNSText-SemiboldItalic.otf */,
+				C8C4C10E41D24B239EF43F8F /* SFNSDisplay-Heavy.otf */,
+				24EAB0D0CB38443391630A74 /* Helvetica Neue LTW0697BlkCnObl.ttf */,
+				4CBB7F4D24DC4284A3057543 /* Helvetica Neue Medium Extended.ttf */,
+				0AA3C3D15B9141E9A98B759E /* Helvetica Neue W01 66 Medium It.ttf */,
+				CF1F3AA89C1A461E9B0EACBC /* Helvetica Neue W01 77 Bd Cn Obl.ttf */,
+				C847F9AE52414CAEAF0BD5BF /* Helvetica Neue W01 87 Hv Cn Obl.ttf */,
+				786EE583CD3343DABA63BD77 /* Helvetica NeueLTW0693BlkExtObl.ttf */,
+				4790284B54D74A46A847041B /* NovaSquare-Regular.ttf */,
+				0B00761030CA4B3BA0B9A2DD /* Helvetica Neue UltraLight.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CapmusFixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CapmusFixTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CapmusFixTests;
+			productName = CapmusFixTests;
+			productReference = 00E356EE1AD99517003FC87E /* CapmusFixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* CapmusFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CapmusFix" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapmusFix;
+			productName = CapmusFix;
+			productReference = 13B07F961A680F5B00A75B9A /* CapmusFix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CapmusFix" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* CapmusFix */,
+				00E356ED1AD99517003FC87E /* CapmusFixTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				64210712626A4B1A987E1A9E /* SFNSDisplay-Black.otf in Resources */,
+				18FD04903A52419B86F9833E /* SFNSDisplay-Bold.otf in Resources */,
+				3585EF88D7AE4A6FBAE6BE65 /* SFNSDisplay-Light.otf in Resources */,
+				25E6F15E6AC94555B975357C /* SFNSDisplay-Medium.otf in Resources */,
+				30E9F4C930BA4322891088EF /* SFNSDisplay-Regular.otf in Resources */,
+				1770EB1E98CA4080AB12C8D0 /* SFNSDisplay-Semibold.otf in Resources */,
+				980B1136D86840E2BC88655E /* SFNSDisplay-Thin.otf in Resources */,
+				5B6B241A77CF40169B8B82EE /* SFNSDisplay-Ultralight.otf in Resources */,
+				65DE5C1FE5F84AFA9E08D0A8 /* SFNSText-Bold.otf in Resources */,
+				C33317A25FF240B3A0CC9EC2 /* SFNSText-BoldG1.otf in Resources */,
+				4052FBB3686143D7AA6D7225 /* SFNSText-BoldG2.otf in Resources */,
+				BECC74D11D25421D844AA31E /* SFNSText-BoldG3.otf in Resources */,
+				1C765C4E29B942E0AFAB2CFD /* SFNSText-BoldItalic.otf in Resources */,
+				FECCF6CCECB84982812E9F90 /* SFNSText-BoldItalicG1.otf in Resources */,
+				4664A654634546A7AC7A69D1 /* SFNSText-BoldItalicG2.otf in Resources */,
+				42968C596B0949C08855BC91 /* SFNSText-BoldItalicG3.otf in Resources */,
+				267129670F674869907CDBFB /* SFNSText-Heavy.otf in Resources */,
+				1B91A23759F944AC9A77C478 /* SFNSText-HeavyItalic.otf in Resources */,
+				CB0728B647184D618D124BCF /* SFNSText-Light.otf in Resources */,
+				FB6BC170AED64B5AAE9E65FB /* SFNSText-LightItalic.otf in Resources */,
+				F02C4F53CC7B49E8A4285F23 /* SFNSText-Medium.otf in Resources */,
+				7780369E35EA49CFBA6841E8 /* SFNSText-MediumItalic.otf in Resources */,
+				B82D298A5D9548EE97DD1CC4 /* SFNSText-Regular.otf in Resources */,
+				DB2BF0A495F949E3A374D381 /* SFNSText-RegularG1.otf in Resources */,
+				C16D68768B24492495D2C09B /* SFNSText-RegularG2.otf in Resources */,
+				4F4AB6DC828F47D3AE37F593 /* SFNSText-RegularG3.otf in Resources */,
+				8178ACEF98784D1A86C2A6AE /* SFNSText-RegularItalic.otf in Resources */,
+				288C4E4E1E3C4C6B852722D7 /* SFNSText-RegularItalicG1.otf in Resources */,
+				C42FA7656CED4E9DA113056B /* SFNSText-RegularItalicG2.otf in Resources */,
+				7D5353423BAC4A6E9B9BC676 /* SFNSText-RegularItalicG3.otf in Resources */,
+				CF21EED419D34CB8A4751771 /* SFNSText-Semibold.otf in Resources */,
+				92336FF690194E5FA8D0F0A2 /* SFNSText-SemiboldItalic.otf in Resources */,
+				A8549504D30345A780C1E00E /* SFNSDisplay-Heavy.otf in Resources */,
+				15AB6D2B96D04E2B80A2ADCC /* Helvetica Neue LTW0697BlkCnObl.ttf in Resources */,
+				BEE97E5E8D7A47BA8845D7D6 /* Helvetica Neue Medium Extended.ttf in Resources */,
+				F3F6977F7B434F17BA71C55A /* Helvetica Neue W01 66 Medium It.ttf in Resources */,
+				B263ED38E8434F2D912E9092 /* Helvetica Neue W01 77 Bd Cn Obl.ttf in Resources */,
+				3A21EBEE771D48E29A1B6C81 /* Helvetica Neue W01 87 Hv Cn Obl.ttf in Resources */,
+				7178FC95F7CB456BA10A988B /* Helvetica NeueLTW0693BlkExtObl.ttf in Resources */,
+				D720FD842FF347008F89DEAE /* NovaSquare-Regular.ttf in Resources */,
+				0A49781EA2C74CF8908AA2FB /* Helvetica Neue UltraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix/Pods-CapmusFix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix/Pods-CapmusFix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapmusFix/Pods-CapmusFix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapmusFix-CapmusFixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CapmusFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix/Pods-CapmusFix-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix/Pods-CapmusFix-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapmusFix/Pods-CapmusFix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CapmusFix-CapmusFixTests/Pods-CapmusFix-CapmusFixTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CapmusFixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* CapmusFix */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-CapmusFix-CapmusFixTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CapmusFixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapmusFix.app/CapmusFix";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-CapmusFix-CapmusFixTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CapmusFixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapmusFix.app/CapmusFix";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-CapmusFix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CapmusFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CapmusFix;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-CapmusFix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CapmusFix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CapmusFix;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CapmusFixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CapmusFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CapmusFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

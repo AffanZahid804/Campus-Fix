@@ -1,0 +1,12 @@
+
+.container{
+    flex: 1;
+flex-direction: row;
+width: "100%";
+
+}
+
+.box{
+ border: 3px solid blue;
+ width: "50%";
+}
